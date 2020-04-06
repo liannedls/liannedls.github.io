@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
+import Pdf from './resume.pdf'
 
 export class Services extends Component {
+  onResumeClick() {
+  window.open(Pdf)
+}
   render() {
     return (
         <div id="services" className="text-center">
@@ -8,40 +12,51 @@ export class Services extends Component {
             <div className="section-title" >
 
               <h2>Resume</h2>
-              <button class="btn btn-primary" href="resume.pdf" download="resume_LDeLaSalle"> Download </button>
+              <button class="btn btn-primary" onClick={this.onResumeClick}> Download </button>
               <div className="row">
                 <div className="col-xs-12 col-md-3">
                   <h3> Technologies</h3>
                   <i className="fa fa-desktop"></i>
                 </div>
-                <div className="col-xs-12 col-md-5 text-left">
+                <div className="col-xs-12 col-md-4 text-left">
                   <h3>Day to Day Comfort</h3>
                     <ul>
-                      <li>Coffee</li>
-                      <li>Coffee</li>
-                      <li>Coffee</li>
-                      <li>Coffee</li>
+                      <li>Javascrip</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Python</li>
+                      <li>SQL</li>
+                      <li>noSQL</li>
+                      <li>Linux</li>
+                      <li>Git</li>
+                      <li>bash</li>
+                      <li>Gimp</li>
                     </ul>
                 </div>
-                <div className="col-xs-12 col-md-4">
+                <div className="col-xs-12 col-md-4 text-left">
                   <h3>Experience With</h3>
                   <ul>
-                    <li>Coffee</li>
-                    <li>Coffee</li>
-                    <li>Coffee</li>
-                    <li>Coffee</li>
+                    <li>QML</li>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Networking Basics</li>
+                    <li>Testing</li>
+                    <li>Cyber Security</li>
+                    <li>Encryption and Cryptography</li>
+                    <li>Software development life cycle</li>
+                    <li>Eagle</li>
                   </ul>
                 </div>
             </div>
 
             <div className="row ">
-                <div className="col-xs-12 col-md-3 text-left">
+                <div className="col-xs-12 col-md-3">
                   <h3>Education</h3>
                   <i className="fa fa-graduation-cap"></i>
                 </div>
-                <div className="col-xs-12 col-md-9">
+                <div className="col-xs-12 col-md-9 text-left">
                 <h3>BASc. Electrical Engineering (Magna Cum Laude)</h3>
-                <h3>University of Ottawa 2017</h3>
+                <h4>University of Ottawa 2017</h4>
                 </div>
             </div>
 

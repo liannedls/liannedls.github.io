@@ -58,7 +58,6 @@ ul, ol {
 hr {
 	height: 2px;
 	width: 70px;
-	text-align: center;
 	position: relative;
 	background: #1E7A46;
 	margin-bottom: 20px;
@@ -537,7 +536,7 @@ color: #777;
 	border-top: 1px solid rgba(255,255,255,0.15);
 	padding-top: 50px;
 	margin-top: 50px;
-	text-align: center;
+	text-align: left;
 }
 #contact .social ul li {
 	display: inline-block;
