@@ -1,8 +1,24 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com';
+import Alert from 'react-bootstrap/Alert';
 
 export class Contact extends Component {
 
   render() {
+
+      function sendEmail(e){
+          e.preventDefault();
+          emailjs.sendForm('default_service', 'template_49yMrNtD', e.target, 'user_jezpq79gZJgVOjwUgvmHa')
+          .then(function(response) {
+             console.log('SUCCESS!', response.status, response.text);
+             alert('Your mail is sent, I will be in touch shortly!')
+          }, function(error) {
+             console.log('FAILED...', error);
+             alert('There seems to be a problem with my mail server, your email was unfortunately not sent.');
+          });
+          document.getElementById("contactform").reset();
+        };
+
     return (
         <div>
       <div id="contact">
@@ -13,7 +29,7 @@ export class Contact extends Component {
           <h2>Get In Touch</h2>
           <p>Please fill out the form below and I will get back to you as soon as possible.</p>
         </div>
-        <form name="sentMessage" id="contactForm" noValidate>
+        <form id = "contactform" className="contact-form" onSubmit={sendEmail}>
           <div class="form-row">
             <div class="form-group col-md-6">
               <div className="form-group">
@@ -31,7 +47,7 @@ export class Contact extends Component {
             <textarea name="message" id="message" className="form-control" rows="4" placeholder="Message" required></textarea>
             <p className="help-block text-danger"></p>
           <div id="success"></div>
-          <button type="submit" className="btn btn-custom btn-lg">Send Message</button>
+          <button type="submit"  value="Send" className="btn btn-custom btn-lg">Send Message</button>
         </form>
       </div>
     </div>
