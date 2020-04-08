@@ -30,65 +30,38 @@ export class Gallery extends Component {
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/03-large.jpg" data-lightbox-gallery="gallery1">
+                  <div className="hover-bg"> <a href="http://create-best.com/pitch/" data-lightbox-gallery="gallery1">
                     <div className="hover-text">
                       <h4>HealthHood</h4>
                     </div>
-                    <img src="img/portfolio/03-small.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
+                    <img src="img/portfolio/award2.png" className="img-responsive" alt="Project Title"/> </a> </div>
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="http://friendshipsupportgroup.ca/" data-lightbox-gallery="gallery1">
+                  <div className="hover-bg"> <a href="http://vybitapp.com/" data-lightbox-gallery="gallery1">
                     <div className="hover-text">
-                      <h4>Friendship Support Group</h4>
-                    </div>
-                    <img src="img/portfolio/04-small.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/05-large.jpg" data-lightbox-gallery="gallery1">
-                    <div className="hover-text">
-                      <h4>Vibes</h4>
+                      <h4>Vybit</h4>
                     </div>
                     <img src="img/portfolio/splash_720.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/09-large.jpg" data-lightbox-gallery="gallery1">
+                  <div className="hover-bg">
                     <div className="hover-text">
                       <h4>In the works</h4>
                     </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
+                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </div>
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/09-large.jpg" data-lightbox-gallery="gallery1">
+                  <div className="hover-bg">
                     <div className="hover-text">
                       <h4>In the works</h4>
                     </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/09-large.jpg" data-lightbox-gallery="gallery1">
-                    <div className="hover-text">
-                      <h4>In the works</h4>
-                    </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href="img/portfolio/09-large.jpg" data-lightbox-gallery="gallery1">
-                    <div className="hover-text">
-                      <h4>In the works</h4>
-                    </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
+                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </div>
                 </div>
               </div>
             </div>

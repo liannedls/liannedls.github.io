@@ -6,7 +6,7 @@ export class about extends Component {
         <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
+            <div className="col-xs-12 col-md-6"> <img src="img/lianne_RHOK.png" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>About Me</h2>
@@ -18,7 +18,7 @@ export class about extends Component {
                     <div className="col-xs-12 col-md-6 text-left">
                       <ul>
                         <li>BASc. Electrical Engineering uOttawa</li>
-                        <li>Diversified work experience, as a software and hardware engineer</li>
+                        <li>Diversified work experience as a software and hardware engineer</li>
                         <li>Javascript, HTML, CSS, SQL, NoSQL, Python, C++, QML, React, Bootstrap</li>
                         <li>Git, Virtual Machines, Arch Linux, Networking, Cyber Security, Gimp</li>
                       </ul>

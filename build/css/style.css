@@ -48,7 +48,6 @@ a:hover, a:focus {
 	color: #608dfd;
 }
 ul, ol {
-	list-style: none;
 }
 ul, ol {
 	padding: 0;
@@ -58,7 +57,6 @@ ul, ol {
 hr {
 	height: 2px;
 	width: 70px;
-	text-align: center;
 	position: relative;
 	background: #1E7A46;
 	margin-bottom: 20px;
@@ -323,6 +321,21 @@ header .intro-text {
 	padding: 5px 0;
 	color: #fff;
 }
+#services h4 {
+	font-weight: 400;
+	padding: 5px 0;
+	color: #ccffff
+}
+#services ul {
+	font-weight: 400;
+	padding: 5px 0;
+	color: #ccffff
+}
+#services li {
+	font-weight: 400;
+	padding: 5px 0;
+	color: #ccffff
+}
 #services p {
 	color: rgba(255,255,255,.75);
 }
@@ -537,7 +550,7 @@ color: #777;
 	border-top: 1px solid rgba(255,255,255,0.15);
 	padding-top: 50px;
 	margin-top: 50px;
-	text-align: center;
+	text-align: left;
 }
 #contact .social ul li {
 	display: inline-block;
@@ -577,4 +590,7 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+.ml-0 {
+  margin-left: 0 !important;
 }

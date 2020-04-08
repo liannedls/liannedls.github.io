@@ -18,7 +18,7 @@ export class Services extends Component {
                   <h3> Technologies</h3>
                   <i className="fa fa-desktop"></i>
                 </div>
-                <div className="col-xs-12 col-md-4 text-left">
+                <div className="col-xs-12 col-md-3 text-left">
                   <h3>Day to Day Comfort</h3>
                     <ul>
                       <li>Javascrip</li>
@@ -71,7 +71,7 @@ export class Services extends Component {
                   <h4>
                   Working with the small team at CCX Technologies, I designed, built, and tested cyber security software and custom built avionics routers. This diverse role included; software design and testing, schematic and PCB design, and product build, verification, and testing.
                   </h4>
-                  <h3>Makerspace Coordinatorr</h3>
+                  <h3>Makerspace Coordinator</h3>
                   <h4>Employer: University of Ottawa - Makerspace</h4>
                   <h4>
                   As the Makerspace Workshop coordinator, I designed and facilitated workshops on a variety of technology subjects and equipment. This role included learning and developing workshops on new technologies including IoT, 3D modelling software, VR, among others.
@@ -97,14 +97,13 @@ export class Services extends Component {
                 <div className="col-xs-12 col-md-9 text-left">
 
                   <h3>Web development for Ottawa Friendship Support Group</h3>
-                  <h4>Ottawa Friendship Support Group http://friendshipsupportgroup.ca/.</h4>
                   <h4>
-                  Developed a webpage for a local mental health support group.
-                  </h4>
+                  Developed a webpage for a local mental health support group, the Ottawa Friendship Support Group.
+                  </h4><a href="http://friendshipsupportgroup.ca/">www.friendshipsupportgroup.ca</a>
 
                   <h3>Web Application for CompuCorps</h3>
                   <h4>Contributed to an open source platform that helps volunteer organizations manage donations.  </h4>
-                  <h4>http://gitlab.com/compucorpsmentoring/intap</h4>
+                  <a href = "http://gitlab.com/compucorpsmentoring/intap">gitlab.com/compucorpsmentoring/intap</a>
 
                 </div>
             </div>
@@ -122,7 +121,7 @@ export class Services extends Component {
                       <li>Bilingual (french/english)</li>
                       <li>Comfortable working remotely</li>
                       <li>Comfortable learning independantly</li>
-                      <li>Experience working in a fast paced changing environement</li>
+                      <li>Experience working in a fast paced, changing environement</li>
                     </ul>
                 </div>
             </div>

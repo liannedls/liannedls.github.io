@@ -326,6 +326,16 @@ header .intro-text {
 	padding: 5px 0;
 	color: #ccffff
 }
+#services ul {
+	font-weight: 400;
+	padding: 5px 0;
+	color: #ccffff
+}
+#services li {
+	font-weight: 400;
+	padding: 5px 0;
+	color: #ccffff
+}
 #services p {
 	color: rgba(255,255,255,.75);
 }
