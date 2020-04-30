@@ -72,7 +72,7 @@ export class Contact extends Component {
               </div>
               <div className="contact-item">
                 <p>
-                <a class="btn btn-info" role="button" href="https://www.linkedin.com/in/lianne-de-la-salle-72b51999/"><i className="fa fa-linkedin"></i> </a></p>
+                <a className="btn btn-info" role="button" href="https://www.linkedin.com/in/lianne-de-la-salle-72b51999/"><i className="fa fa-linkedin"></i> </a></p>
               </div>
               <div className="contact-item">
                 <p>
