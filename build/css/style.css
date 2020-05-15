@@ -48,8 +48,6 @@ a:hover, a:focus {
 	color: #608dfd;
 }
 ul, ol {
-}
-ul, ol {
 	padding: 0;
 	webkit-padding: 0;
 	moz-padding: 0;
@@ -264,6 +262,7 @@ header .intro-text {
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
+	color: #777;
 }
 #about .about-text li:before {
 	content: '\f00c';
@@ -319,28 +318,12 @@ header .intro-text {
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
-}
-#services h4 {
-	font-weight: 400;
-	padding: 5px 0;
 	color: #ccffff
 }
-#services ul {
-	font-weight: 400;
+#services h4, ul, li, a {
+	font-weight: 500;
 	padding: 5px 0;
-	color: #ccffff
-}
-#services li {
-	font-weight: 400;
-	padding: 5px 0;
-	color: #ccffff
-}
-
-#services a {
-	font-weight: 400;
-	padding: 5px 0;
-	color: #ccffff
+	color: #fff
 }
 #services p {
 	color: rgba(255,255,255,.75);
