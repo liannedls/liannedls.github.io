@@ -16,7 +16,8 @@ export class Gallery extends Component {
                     <div className="hover-text">
                       <h4>CompuCorps</h4>
                     </div>
-                    <img src="img/portfolio/01-small.jpg" className="img-responsive" alt="Project Title"/> </a> </div>
+                    <img src="img/portfolio/01-small.jpg" className="img-responsive" alt="Project Title"/> </a> 
+                    </div>
                     </div>
                 </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
@@ -48,20 +49,20 @@ export class Gallery extends Component {
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg">
+                  <div className="hover-bg"> <a href="http://www.skilessonplanner.com/" data-lightbox-gallery="gallery1">
                     <div className="hover-text">
-                      <h4>In the works</h4>
+                      <h4>Ski Lesson Planner</h4>
                     </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </div>
+                    <img src="img/portfolio/alpine.png" className="img-responsive" alt="Project Title"/> </a> </div>
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
-                  <div className="hover-bg">
+                  <div className="hover-bg"> <a href="https://github.com/liannedls/healthhood_map" data-lightbox-gallery="gallery1">
                     <div className="hover-text">
-                      <h4>In the works</h4>
+                      <h4>HealthHood</h4>
                     </div>
-                    <img src="img/portfolio/pending-icon-14.jpg" className="img-responsive" alt="Project Title"/> </div>
+                    <img src="img/portfolio/healthhoodlogo.png" className="img-responsive" alt="Project Title"/> </a> </div>
                 </div>
               </div>
             </div>
