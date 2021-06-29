@@ -13,36 +13,41 @@ export class Services extends Component {
               <h2>Resume</h2>
               <button className="btn btn-primary" onClick={this.onResumeClick}> Download </button>
               <div className="row">
-                <div className="col-xs-12 col-md-3">
+                <div className="col-xs-12 col-md-4">
                   <h3> Technologies</h3>
                   <i className="fa fa-desktop"></i>
                 </div>
-                <div className="col-xs-12 col-md-3 text-left">
+                <div className="col-xs-12 col-md-4 text-left">
                   <h3>Day to Day Comfort</h3>
                     <ul>
-                      <li>Javascript</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
                       <li>Python</li>
-                      <li>SQL</li>
-                      <li>noSQL</li>
+                      <li>Django</li>
+                      <li>Redis</li>
+                      <li>Docker</li>
+                      <li>Regex</li>
+                      <li>RabbitMQ</li>
+                      <li>Javascript</li>
+                      <li>CSS</li>
+                      <li>HTML</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>MySQL</li>
+                      <li>MongoDB</li>
                       <li>Linux</li>
                       <li>Git</li>
-                      <li>bash</li>
+                      <li>Bash</li>
                       <li>Gimp</li>
+                      <li>QML</li>
+                      <li>Jira</li>
                     </ul>
                 </div>
                 <div className="col-xs-12 col-md-4 text-left">
                   <h3>Experience With</h3>
                   <ul>
-                    <li>QML</li>
-                    <li>C++</li>
-                    <li>C</li>
-                    <li>Networking Basics</li>
+                    <li>Networking</li>
                     <li>Testing</li>
                     <li>Cyber Security</li>
                     <li>Encryption and Cryptography</li>
-                    <li>Software development life cycle</li>
                     <li>Eagle</li>
                   </ul>
               </div>
@@ -63,6 +68,11 @@ export class Services extends Component {
                 <i className="fa fa-briefcase"></i>
               </div>
               <div className="col-xs-12 col-md-9 text-left">
+                <h3>Software Engineer</h3>
+                <h4>Employer: Canadian Radio-television and Telecommunications Commission</h4>
+                <h4>
+                  I contributed to the CRTC's internal Django web application, the Spam Reporting Center. Working in a small team I implemented new features, fixed bugs, developed automated tests, and ensured proper functionality.
+                </h4>
                 <h3>Software and Hardware Engineer</h3>
                 <h4>Employer: CCX Technologies</h4>
                 <h4>
@@ -83,21 +93,6 @@ export class Services extends Component {
                 <h4>
                   As a protection and control engineer I worked primarily in the field, completing maintenance on testing instrumentation, updated engineering drawings to reflect field conditions, and addressed problems at various substations.
                 </h4>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xs-12 col-md-3">
-                <h3>Volunteer Project Experience</h3>
-                <i className="fa fa-briefcase"></i>
-              </div>
-              <div className="col-xs-12 col-md-9 text-left">
-                <h3>Web development for Ottawa Friendship Support Group</h3>
-                <h4>
-                  Developed a webpage for a local mental health support group, the Ottawa Friendship Support Group.
-                </h4><a href="http://friendshipsupportgroup.ca/">www.friendshipsupportgroup.ca</a>
-                <h3>Web Application for CompuCorps</h3>
-                <h4>Contributed to an open source platform that helps volunteer organizations manage donations.  </h4>
-                <a href = "http://gitlab.com/compucorpsmentoring/intap">gitlab.com/compucorpsmentoring/intap</a>
               </div>
             </div>
             <div className="row">
