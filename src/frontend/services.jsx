@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Pdf from './resume.pdf'
+import Pdf from './LdelaSalle_CV_2021_Software.pdf'
 
 export class Services extends Component {
   onResumeClick() {
